@@ -6,9 +6,10 @@ def hello_t(array)
       yield array[i]
       i += 1 
     end 
-  
-  array
-  end
+    array
+  else
+    puts "Hey"
+  end 
 end
 
 # call your method here!
